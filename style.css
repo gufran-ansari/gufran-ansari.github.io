@@ -23,7 +23,7 @@
 	background-color: transparent;
 }
 
-.tabcontent h3{
+.tabcontent h3 {
 	text-align: center;
 }
 
@@ -48,7 +48,10 @@
 }
 
 .tabcontent {
-	animation: fadeEffect 1s;
+	animation: fadeEffect .7s;
+
+	display: none;
+	padding: 6px 12px;
 }
 
 /* Tabs End */
